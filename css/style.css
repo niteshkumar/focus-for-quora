@@ -1,0 +1,152 @@
+body
+{
+	overflow-Y:scroll;
+}
+
+
+.banner
+{
+	border-bottom:1px dashed #d0d0d0;
+	background-color:#f3f3f3;
+	height:428px;
+	width:100%;
+	border-top:5px solid #a82400
+}
+
+.name
+{
+	width:510px;
+	margin:auto;
+	margin-top:100px;
+}
+
+
+.focus
+{
+font-size: 146px;
+color: #444;
+font-family: "Georgia","Arial";
+line-height: 99px;
+text-align:center;
+}
+
+.for
+{
+font-size: 24px;
+color: #444;
+font-family:"Georgia","Arial";
+text-align:center;
+margin-top:30px;
+font-style:italic;
+}
+
+.quora
+{
+	margin:auto;
+	margin-top:30px;
+	width:60px;
+	height:40px;
+	background-image:url('../images/quora.png');
+}
+
+.line
+{
+font-size: 16px;
+color: #aaa;
+text-shadow:0px 1px 2px #ffffff;
+font-family:"Georgia","Arial";
+text-align:center;
+margin-top:30px;
+}
+
+.horizontal
+{
+	margin-bottom:200px;
+	width:100%;
+	background-color:#444;
+	position:absolute;
+	top:428px;
+}
+
+.container
+{
+	width:770px;
+	margin:auto;
+	margin-top:100px;
+}
+
+.twentytwenty-container
+{
+	border-top-right-radius:3px;
+	border-top-left-radius:3px;
+	box-shadow:0px -3px 10px #222;
+}
+
+
+.footer
+{
+	height:255px;
+	background-color:#f3f3f3;
+	border-top:1px dashed #d0d0d0;
+	box-shadow:0px -1px 20px #222;
+	position:absolute;
+	top:1106px;
+	width:100%;
+	z-index:1000;
+}
+
+.download
+{
+	height:40px;
+	width:140px;
+	margin:auto;
+	font-size:14px;
+	color:#fff;
+	border-radius:3px;
+	transition: all 0.2s ease-in-out;
+	background-color:#a82400;
+	text-align:center;
+	line-height:40px;
+	margin-top:50px;
+	box-shadow:0px 1px 1px #fff;
+	cursor:pointer;
+}
+
+.download:hover
+{
+	background-color:#801b00;
+}
+
+.no-line
+{
+	text-decoration:none;
+}
+
+.share
+{
+	margin:auto;
+	margin-top:40px;
+	width:75px;
+}
+
+.credit
+{
+	margin-top:50px;
+	height:50px;
+	border-top:1px dashed #d0d0d0;
+	text-align:center;
+	line-height:50px;
+	font-size:12px;
+	color:#bbb;
+}
+
+.credit a
+{
+	color:#999;
+	text-decoration:none;
+}
+
+.credit a:hover
+{
+	text-decoration:underline;
+}

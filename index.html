@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>    <html class="ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>    <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9 ]>    <html class="lt-ie10" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+<meta charset="utf-8" />
+<link rel="shortcut icon" href="img/1.ico" type="image/x-icon">
+<title>Focus for Quora - Chrome extension</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" href="css/style.css" type="text/css">
+<link rel="stylesheet" href="css/normalize.css" type="text/css">
+<link href="css/foundation.css" rel="stylesheet" type="text/css" />
+<link href="css/twentytwenty.css" rel="stylesheet" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+<script src="js/jquery.event.move.js"></script>
+<script src="js/jquery.twentytwenty.js"></script>
+</head>
+
+<body>
+<div class="banner">
+	<div class="name">
+		<div class="focus">Focus</div>
+		<div class="for">for</div>
+		<div class="quora"></div>
+		<div class="line">A chrome extension that lets you focus on stories and answers</div>
+	</div>
+</div>
+
+<div class="horizontal">
+    <div class="container">
+        <div class="twentytwenty-container">
+          <img src="img/home1.png" />
+          <img src="img/home2.png" />
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+	<a class="no-line" href="https://chrome.google.com/webstore/detail/focus-for-quora/hnhgjafhjackjclpghaohogmgglhhdoe"><div class="download">Download</div></a>
+
+<div class="share">
+	<a href="https://twitter.com/share" class="twitter-share-button" data-via="niteshk5">Tweet</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+</div>
+
+<div class="credit">Focus is built by <a href="http://www.niteshk.com/">Nitesh Kumar</a></div>
+</div>
+
+<script>
+    $(window).load(function(){
+      $(".twentytwenty-container").twentytwenty({default_offset_pct: 0.5});  
+    });
+</script>
+</body>
+
+</html>
